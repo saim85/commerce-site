@@ -1,0 +1,17 @@
+@media screen and (max-width: 991px) {
+  .navigation {
+    background: var(--black-color);
+  }
+}
+
+@media screen and (max-width:676px) {
+  .header{
+    position: fixed;
+    left: 0;
+    top: 0;
+    z-index: 10000;
+  }
+  #hero{
+    margin-top: 4.4rem;
+  }
+}
